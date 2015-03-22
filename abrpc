@@ -1,0 +1,9 @@
+#!/bin/bash
+#
+# abrpc
+#
+set -e
+
+. /usr/local/etc/abenv
+
+sqlrpc -w ${WEBSOCKET} $@

@@ -6,4 +6,4 @@ set -e
 
 . /usr/local/etc/abenv
 
-sqlrpc -w ${WEBSOCKET} $@
+sqlauthrpc -w ${WEBSOCKET} $@

@@ -15,4 +15,6 @@ then
   exit 1
 fi
 
+echo 'done waiting'
+
 sqlauthrpc -w ${WEBSOCKET} $@
